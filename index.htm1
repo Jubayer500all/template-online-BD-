@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Template Online BD — বর্তমান ও ভবিষ্যতের জন্য সেরা টেমপ্লেট</title>
+  <meta name="description" content="Template Online BD — সহজে সাশ্রয়ী ও রেসপন্সিভ টেমপ্লেট।" />
+  <style>
+    :root{--accent:#0ea5e9;--bg:#071024;--muted:#94a3b8}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial;background:linear-gradient(180deg,#071024 0%, #081226 70%);color:#e6eef8}
+    .container{max-width:1100px;margin:0 auto;padding:28px}
+    header{display:flex;justify-content:space-between;align-items:center}
+    .logo{display:flex;gap:12px;align-items:center}
+    .mark{width:48px;height:48px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#7c3aed);display:flex;align-items:center;justify-content:center;font-weight:800}
+    nav{display:flex;gap:14px}
+    nav a{color:var(--muted);text-decoration:none;font-weight:600}
+    .cta{background:var(--accent);color:#042331;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:700}
+    .hero{display:flex;gap:24px;align-items:center;margin-top:28px}
+    .hero .left{flex:1}
+    h1{margin:0;font-size:30px}
+    p.lead{color:var(--muted);margin-top:8px}
+    .products{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:18px}
+    .card{background:rgba(255,255,255,0.03);padding:14px;border-radius:12px;border:1px solid rgba(255,255,255,0.04)}
+    .thumb{height:120px;border-radius:8px;background:linear-gradient(135deg,#123 40%, #456)}
+    .price{font-weight:800;margin-top:8px}
+    .muted{color:var(--muted)}
+    form{display:flex;flex-direction:column;gap:8px}
+    input,textarea{padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit}
+    footer{margin-top:28px;color:var(--muted)}
+    @media(max-width:900px){.products{grid-template-columns:repeat(2,1fr)}.hero{flex-direction:column}}
+    @media(max-width:520px){.products{grid-template-columns:1fr}}
+    .whatsapp{display:inline-block;padding:8px 10px;border-radius:10px;background:#25D366;color:#042331;text-decoration:none;font-weight:700}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <div class="mark">T</div>
+        <div>
+          <div style="font-weight:800">Template Online BD</div>
+          <div class="muted" style="font-size:13px">বর্তমান ও ভবিষ্যতের জন্য সেরা টেমপ্লেট</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#products">টেমপ্লেট</a>
+        <a href="#how">কীভাবে কাজ করে</a>
+        <a href="#contact">যোগাযোগ</a>
+        <a class="cta" href="#contact">অর্ডার করুন</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="left">
+          <h1>কম খরচে, দ্রুত চালু করুন — প্রফেশনাল ওয়েব/ডক টেমপ্লেট</h1>
+          <p class="lead">আমরা তৈরি করি বর্তমান ও ভবিষ্যতের চাহিদা মাথায় রেখে টেমপ্লেট — CV, বিজনেস, ই-কমার্স, পোর্টফলিও, ব্লগ ও প্রেজেন্টেশন। অর্ডার দিলে আমি সেটআপ করে দেবো এবং কাস্টমাইজ করব।</p>
+          <p style="margin-top:12px"><a class="whatsapp" href="https://wa.me/8801719225427?text=%E0%A6%B9%E0%A6%BE%E0%A6%B2%E0%A7%8B%20Template%20Online%20BD.%20আমি%20সাহায্য%20চাই।">WhatsApp-এ যোগাযোগ করুন</a></p>
+        </div>
+        <aside style="width:320px">
+          <div class="card">
+            <h3>সার্ভিস প্যাকেজ</h3>
+            <ul class="muted">
+              <li>বেসিক টেমপ্লেট — ৫০০ টাকা</li>
+              <li>স্ট্যান্ডার্ড (কাস্টমাইজড) — ১,০০০ টাকা</li>
+              <li>প্রো (ফুল সেটআপ + হোস্টিং সহ) — আলোচনা ভিত্তিতে</li>
+            </ul>
+            <p style="margin-top:10px"><a class="cta" href="#contact">অর্ডার করুন</a></p>
+          </div>
+        </aside>
+      </section>
+
+      <section id="products" style="margin-top:22px">
+        <h2>প্রিমিয়াম টেমপ্লেটে আমাদের কিউরেটেড কালেকশন</h2>
+        <div class="products">
+          <div class="card">
+            <div class="thumb"></div>
+            <h3>CV / রিজিউম টেমপ্লেট</h3>
+            <div class="price">৫০০ টাকা</div>
+            <p class="muted">প্রফেশনাল CV টেমপ্লেট — চাকরির জন্য প্রস্তুত, সহজ সম্পাদনার ফাইল।</p>
+            <p style="margin-top:8px"><a class="whatsapp" href="https://wa.me/8801719225427?text=%E0%A6%B9%E0%A6%BE%E0%A6%B2%E0%A7%8B%20Template%20Online%20BD.%20আমি%20'%E0%A6%86%E0%A6%B0%20CV%20%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A7%87%E0%A6%9F'%20অর্ডার%20করতে%20চাই।%20নাম:%20%0Aফোন:%20%0Aঠিকানা:">অর্ডার করুন (WhatsApp)</a></p>
+          </div>
+
+          <div class="card">
+            <div class="thumb"></div>
+            <h3>বিজনেস ওয়েবসাইট টেমপ্লেট</h3>
+            <div class="price">১০০০ টাকা</div>
+            <p class="muted">ছোট ব্যবসার ল্যান্ডিং/প্রোডাক্ট পেজ সহ রেসপন্সিভ টেমপ্লেট।</p>
+            <p style="margin-top:8px"><a class="whatsapp" href="https://wa.me/8801719225427?text=%E0%A6%B9%E0%A6%BE%E0%A6%B2%E0%A7%8B%20Template%20Online%20BD.%20আমি%20'%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A6%A8%E0%A7%87%E0%A6%B8%20%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A7%87%E0%A6%9F'%20অর্ডার%20করতে%20চাই।%20নাম:%20%0Aফোন:%20%0Aঠিকানা:">অর্ডার করুন (WhatsApp)</a></p>
+          </div>
+
+          <div class="card">
+            <div class="thumb"></div>
+            <h3>ই-কমার্স টেমপ্লেট</h3>
+            <div class="price">১৫০০ টাকা</div>
+            <p class="muted">শপ পেজ, প্রোডাক্ট লিস্টিং ও অর্ডার লিংকসহ সহজ সেটআপ।</p>
+            <p style="margin-top:8px"><a class="whatsapp" href="https://wa.me/8801719225427?text=%E0%A6%B9%E0%A6%BE%E0%A6%B2%E0%A7%8B%20Template%20Online%20BD.%20আমি%20'%E0%A6%87-%E0%A6%95%E0%A6%AE%E0%A6%BC%E0%A6%B0%E0%A7%8D%E0%A6%B8%20%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A7%87%E0%A6%9F'%20অর্ডার%20করতে%20চাই।%20নাম:%20%0Aফোন:%20%0Aঠিকানা:">অর্ডার করুন (WhatsApp)</a></p>
+          </div>
+
+          <div class="card">
+            <div class="thumb"></div>
+            <h3>পোর্টফলিও টেমপ্লেট</h3>
+            <div class="price">৭০০ টাকা</div>
+            <p class="muted">ডিজাইন-ফোকাসড পোর্টফলিও, ছবি ও প্রকল্প প্রদর্শনের জন্য।</p>
+            <p style="margin-top:8px"><a class="whatsapp" href="https://wa.me/8801719225427?text=%E0%A6%B9%E0%A6%BE%E0%A6%B2%E0%A7%8B%20Template%20Online%20BD.%20আমি%20'%E0%A6%AA%E0%A7%8B%E0%A6%B0%E0%A7%8D%E0%A6%9F%E0%A6%AB%E0%A6%B2%E0%A6%BF%E0%A6%93%20%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A7%87%E0%A6%9F'%20অর্ডার%20করতে%20চাই।%20নাম:%20%0Aফোন:%20%0Aঠিকানা:">অর্ডার করুন (WhatsApp)</a></p>
+          </div>
+
+          <div class="card">
+            <div class="thumb"></div>
+            <h3>ব্লগ/নিউজ টেমপ্লেট</h3>
+            <div class="price">৬০০ টাকা</div>
+            <p class="muted">আর্টিকেল/নিউজ শেয়ার করার জন্য সহজ এবং দ্রুত টেমপ্লেট।</p>
+            <p style="margin-top:8px"><a class="whatsapp" href="https://wa.me/8801719225427?text=%E0%A6%B9%E0%A6%BE%E0%A6%B2%E0%A7%8B%20Template%20Online%20BD.%20আমি%20'%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%97%20%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A7%87%E0%A6%9F'%20অর্ডার%20করতে%20চাই।%20নাম:%20%0Aফোন:%20%0Aঠিকানা:">অর্ডার করুন (WhatsApp)</a></p>
+          </div>
+
+          <div class="card">
+            <div class="thumb"></div>
+            <h3>প্রেজেন্টেশন টেমপ্লেট (Slides)</h3>
+            <div class="price">৫০০ টাকা</div>
+            <p class="muted">পেশাদার প্রেজেন্টেশন টেমপ্লেট — ব্যবসা, ক্লাস ও প্রজেক্টের জন্য।</p>
+            <p style="margin-top:8px"><a class="whatsapp" href="https://wa.me/8801719225427?text=%E0%A6%B9%E0%A6%BE%E0%A6%B2%E0%A7%8B%20Template%20Online%20BD.%20আমি%20'%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%9C%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%B6%E0%A6%A8%20%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A7%87%E0%A6%9F'%20অর্ডার%20করতে%20চাই।%20নাম:%20%0Aফোন:%20%0Aঠিকানা:">অর্ডার করুন (WhatsApp)</a></p>
+        </div>
+      </section>
+
+      <section id="how" style="margin-top:22px">
+        <h2>কীভাবে কাজ করবে</h2>
+        <ol class="muted">
+          <li>আপনি WhatsApp-এ অর্ডার করবেন — আমি রেসপন্স করবো।</li>
+          <li>প্রয়োজনে কাস্টমাইজেশনের কথা জানাবেন (লোগো/রং/টেক্সট)।</li>
+          <li>পেমেন্ট পেয়ে ফাইল বা সরাসরি হোস্ট করে আমি সাইট লাইভ করে দেবো।</li>
+        </ol>
+      </section>
+
+      <section id="contact" style="margin-top:22px">
+        <h2>যোগাযোগ / অর্ডার</h2>
+        <div class="card" style="display:grid;grid-template-columns:1fr 320px;gap:14px">
+          <div>
+            <form onsubmit="event.preventDefault(); fallbackOrder()">
+              <input id="custName" placeholder="আপনার নাম" required>
+              <input id="custPhone" placeholder="মোবাইল নম্বর" required>
+              <textarea id="custMsg" placeholder="আপার বার্তা (যেমন: কোন টেমপ্লেট, কাস্টোমাইজেশন)" rows="4"></textarea>
+              <div style="margin-top:8px">
+                <button class="cta" onclick="orderViaWhatsAppFromForm()">WhatsApp-এ পাঠান</button>
+                <span class="muted" style="margin-left:10px">(অথবা নিচে ফ্রিকোয়েন্টি প্রশ্ন দেখুন)</span>
+              </div>
+            </form>
+          </div>
+          <div>
+            <h3>প্রশ্ন?</h3>
+            <p class="muted">WhatsApp: +8801719225427<br>সামান্য সময় নিয়ে আমরা সাড়া দিবো।</p>
+            <h3 style="margin-top:12px">হোস্টিং সাজেশন</h3>
+            <p class="muted">শুরুতে GitHub Pages / Netlify ফ্রি। পরে প্রফেশনাল ডোমেইন কিঁয়ে দিন।</p>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+        <div class="muted">© Template Online BD — ২০২৫</div>
+        <div class="muted">প্রাইভেসি · টার্মস</div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    function orderViaWhatsAppFromForm(){
+      const name = encodeURIComponent(document.getElementById('custName').value.trim());
+      const phone = encodeURIComponent(document.getElementById('custPhone').value.trim());
+      const msg = encodeURIComponent(document.getElementById('custMsg').value.trim());
+      if(!name || !phone){ alert('নাম ও ফোন দিন'); return }
+      const text = `হ্যালো Template Online BD. আমি অর্ডার করতে চাই। নাম: ${name} ফোন: ${phone} বার্তা: ${msg}`;
+      const url = 'https://wa.me/8801719225427?text=' + encodeURIComponent(text);
+      window.open(url,'_blank');
+    }
+    function fallbackOrder(){ alert('অনুগ্রহ করে "WhatsApp-এ পাঠান" বাটন চাপুন।') }
+  </script>
+</body>
+</html>
